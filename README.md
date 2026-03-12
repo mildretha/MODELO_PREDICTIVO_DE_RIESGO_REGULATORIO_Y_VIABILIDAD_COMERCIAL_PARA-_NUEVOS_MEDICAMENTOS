@@ -2,7 +2,7 @@
 
 <h1 align="center"> 🧬 
 Modelo predictivo de riesgo regulatorio<br>
-y Viabilidad Comercial para Nuevos <br>
+y viabilidad Comercial para Nuevos <br>
 medicamentos en Colombia
 </h1>
 
