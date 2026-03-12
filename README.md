@@ -3,7 +3,7 @@
 <h1 align="center"> 🧬 
 Modelo predictivo de riesgo regulatorio<br>
 y viabilidad Comercial para Nuevos <br>
-medicamentos en Colombia
+medicamentos en Colombia 🇨🇴
 </h1>
 
 
