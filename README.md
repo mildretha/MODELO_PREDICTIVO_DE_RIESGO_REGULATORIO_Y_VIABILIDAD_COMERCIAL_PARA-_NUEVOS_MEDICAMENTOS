@@ -6,6 +6,8 @@
 **Última actualización:** Marzo 2026  
 **Estado del proyecto:** En desarrollo activo  
 
+
+
 ---
 
 ## Resumen Ejecutivo
@@ -212,6 +214,7 @@ MODELO_PREDICTIVO_DE_RIESGO_REGULATORIO_Y_VIABILIDAD_COMERCIAL_PARA_NUEVOS_MEDIC
 ├── INICIO_RAPIDO.md
 └── README.md
 
+```
 
 --- 
 ## Modelos Implementados
