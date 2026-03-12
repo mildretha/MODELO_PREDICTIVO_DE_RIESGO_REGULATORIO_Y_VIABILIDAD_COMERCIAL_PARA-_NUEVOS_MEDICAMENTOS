@@ -187,15 +187,16 @@ MODELO_PREDICTIVO_DE_RIESGO_REGULATORIO_Y_VIABILIDAD_COMERCIAL_PARA_NUEVOS_MEDIC
 │   └── intermedios/                # Datos transformados parcialmente
 │
 ├── cuadernos/
-│   ├── 01_analisis_exploratorio.py
-│   ├── 02_calidad_datos.py
-│   ├── 03_modelado_estadistico.py
-│   ├── 04_modelado_machine_learning.py
-│   ├── 05_modelado_deep_learning.py
-│   └── 06_comparacion_modelos.py
+│   ├── Script_00_scraping_datos_fuente.py
+│   ├── Script_01_analisis_exploratorio.py
+│   ├── Script_02_calidad_datos.py
+│   ├── Script_03_modelado_estadistico.py
+│   ├── Script_04_modelado_machine_learning.py
+│   ├── Script_05_modelado_deep_learning.py
+│   └── Script_06_comparacion_modelos.py
 │
 ├── src/
-│   ├── 01_ingestion_datos/         # Carga, lectura y validación de datos
+│   ├── 01_ingesta_datos/           # Carga, lectura y validación de datos
 │   ├── 02_analisis_exploratorio/   # Estadística descriptiva y análisis inicial
 │   ├── 03_preprocesamiento/        # Limpieza, transformación e ingeniería de variables
 │   ├── 04_modelos_estadisticos/    # Regresión logística y modelos de supervivencia
