@@ -1,9 +1,8 @@
 
 
-<h1 align="center">
-🇨🇴 🧬 Modelo Predictivo de Riesgo Regulatorio<br>
+<h1 align="center"> 🧬 Modelo Predictivo de Riesgo Regulatorio<br>
 y Viabilidad Comercial<br>
-para Nuevos Medicamentos en Colombia 🇨🇴
+para Nuevos Medicamentos en Colombia
 </h1>
 
 
