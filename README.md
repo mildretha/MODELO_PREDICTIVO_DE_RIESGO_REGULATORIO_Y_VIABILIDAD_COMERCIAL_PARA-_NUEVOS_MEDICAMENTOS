@@ -179,12 +179,12 @@ MODELO_PREDICTIVO_DE_RIESGO_REGULATORIO_Y_VIABILIDAD_COMERCIAL_PARA_NUEVOS_MEDIC
 │   └── intermedios/                # Datos transformados parcialmente
 │
 ├── cuadernos/
-│   ├── 01_analisis_exploratorio.ipynb
-│   ├── 02_calidad_datos.ipynb
-│   ├── 03_modelado_estadistico.ipynb
-│   ├── 04_modelado_machine_learning.ipynb
-│   ├── 05_modelado_deep_learning.ipynb
-│   └── 06_comparacion_modelos.ipynb
+│   ├── 01_analisis_exploratorio.py
+│   ├── 02_calidad_datos.py
+│   ├── 03_modelado_estadistico.py
+│   ├── 04_modelado_machine_learning.py
+│   ├── 05_modelado_deep_learning.py
+│   └── 06_comparacion_modelos.py
 │
 ├── src/
 │   ├── 01_ingestion_datos/         # Carga, lectura y validación de datos
