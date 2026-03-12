@@ -1,0 +1,102 @@
+
+# ==========================================================
+# REQUERIMIENTOS DEL PROYECTO
+# Modelo Predictivo de Riesgo Regulatorio y Viabilidad Comercial
+# para Nuevos Medicamentos en Colombia
+#
+# Este archivo contiene las librerías necesarias para:
+# - Análisis y manipulación de datos
+# - Modelos estadísticos
+# - Machine Learning supervisado
+# - Aprendizaje no supervisado
+# - Redes neuronales y Deep Learning
+# - Visualización de resultados
+# - Interpretabilidad de modelos
+#
+# Instalación:
+# pip install -r requirements.txt
+# ==========================================================
+
+
+# ===============================
+# Ciencia de Datos Base
+# ===============================
+numpy
+pandas
+scipy
+
+
+# ===============================
+# Visualización de Datos
+# ===============================
+matplotlib
+seaborn
+plotly
+
+
+# ===============================
+# Machine Learning
+# ===============================
+scikit-learn
+xgboost
+lightgbm
+catboost
+
+
+# ===============================
+# Modelos Estadísticos
+# ===============================
+statsmodels
+linearmodels
+
+
+# ===============================
+# Deep Learning / Redes Neuronales
+# ===============================
+tensorflow
+keras
+torch
+torchvision
+
+
+# ===============================
+# Interpretabilidad de Modelos
+# ===============================
+shap
+lime
+
+
+# ===============================
+# Ingeniería de Características
+# ===============================
+feature-engine
+category-encoders
+
+
+# ===============================
+# Manejo de Datos Grandes
+# ===============================
+dask
+
+
+# ===============================
+# Optimización de Modelos
+# ===============================
+optuna
+hyperopt
+
+
+# ===============================
+# Utilidades
+# ===============================
+tqdm
+joblib
+pyyaml
+
+
+# ===============================
+# Entorno de Desarrollo
+# ===============================
+jupyter
+notebook
+ipykernel
