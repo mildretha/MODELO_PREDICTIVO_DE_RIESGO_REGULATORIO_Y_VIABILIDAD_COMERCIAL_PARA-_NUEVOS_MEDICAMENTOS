@@ -211,3 +211,109 @@ MODELO_PREDICTIVO_DE_RIESGO_REGULATORIO_Y_VIABILIDAD_COMERCIAL_PARA_NUEVOS_MEDIC
 ├── BASES_DE_DATOS.md
 ├── INICIO_RAPIDO.md
 └── README.md
+'''
+
+
+## Modelos Implementados
+
+### 1. Modelos Estadísticos Clásicos
+
+#### Regresión Logística Binaria
+
+Permite estimar la probabilidad de aprobación regulatoria o clasificación de riesgo regulatorio a partir de variables explicativas.
+
+Características:
+
+- Interpretabilidad directa de coeficientes
+- Estimación mediante máxima verosimilitud
+- Cálculo de **Odds Ratios (OR)** para evaluar impacto de variables
+
+#### Modelos de Supervivencia
+
+Permiten analizar la duración de procesos regulatorios y estimar tiempos asociados a aprobación o retrasos regulatorios.
+
+Metodologías utilizadas:
+
+- Curvas **Kaplan-Meier**
+- Modelo de **Riesgos Proporcionales de Cox**
+- Estimación de **Hazard Ratios (HR)**
+
+---
+
+### 2. Algoritmos de Aprendizaje Automático
+
+#### Random Forest
+
+Modelo de ensamble basado en múltiples árboles de decisión que permite capturar relaciones no lineales entre variables.
+
+Ventajas:
+
+- Robustez frente a ruido en los datos
+- Manejo automático de interacciones entre variables
+- Cálculo de importancia de variables
+
+#### Gradient Boosting
+
+Algoritmo que optimiza secuencialmente el error del modelo, logrando alto desempeño predictivo.
+
+Características:
+
+- Alta precisión
+- Optimización iterativa
+- Buen desempeño en datasets complejos
+
+#### XGBoost y LightGBM
+
+Versiones optimizadas de boosting utilizadas para mejorar eficiencia computacional y precisión predictiva.
+
+---
+
+### 3. Redes Neuronales (Deep Learning)
+
+Arquitecturas densas utilizadas para modelar relaciones complejas entre variables regulatorias, técnicas y de mercado.
+
+Características:
+
+- Capas **fully-connected**
+- Regularización mediante **dropout**
+- **Batch normalization**
+- Optimización mediante **Adam**
+
+---
+
+# Métricas de Evaluación
+
+| Métrica | Descripción | Interpretación |
+|-------|-------------|---------------|
+| AUC-ROC | Área bajo la curva ROC | Capacidad de discriminación entre clases |
+| Precisión | TP / (TP + FP) | Exactitud de positivos predichos |
+| Sensibilidad (Recall) | TP / (TP + FN) | Cobertura de positivos reales |
+| Especificidad | TN / (TN + FP) | Detección de verdaderos negativos |
+| F1 Score | Media armónica entre precisión y recall | Balance del modelo |
+| Calibración | Calidad de probabilidades estimadas | Coherencia con eventos reales |
+| Hazard Ratio | Exp(β) en modelos Cox | Riesgo relativo |
+| Odds Ratio | Exp(β) en regresión logística | Cambio relativo en odds |
+
+---
+
+# Requisitos Técnicos
+
+- Python **3.9 o superior**
+- Sistemas operativos: **Windows, macOS o Linux**
+- **8 GB de RAM recomendados**
+- **Git** para control de versiones
+
+Base de datos recomendada:
+
+- **PostgreSQL 12+**
+
+---
+
+# Dependencias Principales
+
+## Análisis de Datos
+
+```bash
+pandas>=1.3.0
+numpy>=1.21.0
+scipy>=1.7.0
